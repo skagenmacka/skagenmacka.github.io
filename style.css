@@ -174,10 +174,39 @@ body
         font-size: 24px;
     }
     
-    /* Minskar storleken av top-bar */
+    /* Ökar storleken av top-bar and dens innehåll */
     #top-bar
     {
-        height: 240px;
+        height: 200px;
+    }
+    
+    /* Gör loggan större och centrerar den */
+    #logo
+    {
+        left: 50%;
+        transform: translateX(-50%);
+        
+        height: 128px;
+    }
+    
+    /* Gör språkväljren större */
+    
+    #lang-display
+    {
+        width: 128px;
+    }
+    
+    #lang-content
+    {
+        left: -16px;
+        
+        width: 160px;
+    }
+    
+    #lang-content > img
+    {
+        width: 128px;
+        margin: 16px 16px;
     }
     
     #content
