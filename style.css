@@ -63,7 +63,6 @@ body
     
     /* För att göra plats till noscript-warning */
     margin-top: 64px;
-    top: 64px;
     
     width: 100%;
     height: 120px;
@@ -170,17 +169,15 @@ body
 /* För mobiler och mindre skärmar */
 @media (orientation: portrait) and (min-width: 800px)
 {
-    #noscript-warning
+    :root
     {
-        border-radius: 0px;
-        width: 100%;
-        height: 100%;
+        font-size: 24px;
     }
     
     /* Minskar storleken av top-bar */
     #top-bar
     {
-        height: 100px;
+        height: 240px;
     }
     
     #content

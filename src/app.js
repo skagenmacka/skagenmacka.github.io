@@ -1,7 +1,6 @@
 /* Sätter tilbaka top-bar till toppen eftersom JavaScipt fungerar */
 const topBra = document.getElementById("top-bar");
 topBra.style.marginTop = 0;
-topBra.style.top = 0;
 
 const langSelector = document.getElementById("lang-selector");
 const langDisplay = document.getElementById("lang-display");
