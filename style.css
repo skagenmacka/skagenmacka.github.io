@@ -274,14 +274,29 @@ body
     {
         visibility: visible;
         
-        width: 100px;
-        height: 100px;
+        width: 64px;
+        height: 64px;
         
         left: 48px;
         top: 50%;
         transform: translateY(-50%);
+    }
+    
+    #mobile-burger
+    {
+        position: absolute;
+        filter: invert(100%);
         
-        background-color: #fff;
+        transition: all .2s ease-in-out;
+    }
+    
+    #mobile-x
+    {
+        opacity: 0;
+        position: absolute;
+        filter: invert(100%);
+        
+        transition: all .2s ease-in-out;
     }
     
     #mobile-socials
