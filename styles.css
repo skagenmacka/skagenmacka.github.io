@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+body {
+    position: fixed;
+    height: 100%;
+  
+    background-color: #000;
+    font-family: 'Ubuntu Mono', monospace;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+a {
+    color: #fff;
+    font-size: 64px;
+}
+
+p {
+  color: #99a;
+}
